@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Dancing+Script:wght@700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(179,177,173); */
+}
+.dodo a{
+    font-size: 30px;
+    
+}
+.dodo a:hover{
+    color: rgb(252,128,25);
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width: 40%;
+    /* background-color: red; */
+}
+.top-right{
+    height: 100px;
+    width: 100px;
+    background-image: url(/swiggy/swiggu/login.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.top-l-l h1{
+    font-size: 30px;
+    margin-bottom:4px;
+}
+.top-l-l p{
+    /* border-bottom: 1px solid black; */
+    /* ye krna hai */
+}
+.top-l-l a{
+    text-decoration: none;
+    color: rgb(253,166,71);
+}
+.midd{
+    margin: 20px;
+}
+.midd input{
+    height: 50px;
+    width: 90%;
+    border: none;
+    border: 1px solid black;
+    margin-bottom:20px;
+}
+.butt a{
+    text-decoration: none;
+    color: white;
+}
+.kuch-nhi{
+    position: relative;
+}
+.butt a h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.butt{
+    height: 50px;
+    width: 90%;
+    border: none;
+    margin-bottom:20px;
+    background-color: rgb(252,128,25);
+}
+.bptp{
+    color: black;
+    font-size: 12px;
+}

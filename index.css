@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Dancing+Script:wght@700&display=swap');
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    font-family: 'Alegreya Sans', sans-serif;
+}
+html,body{
+    height:100%;
+    width:100%;
+    
+}
+body{
+    overflow-x: hidden;
+}
+html{
+    font-size: 62.5%;
+}
+.main{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.mid-h{
+   padding: 5rem;
+    border-left: .1rem solid black;
+}
+.main-l{ 
+    height: 100%;
+    width: 70%;
+    background-color: rgb(255,255,255);
+}
+.nav{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size: large;
+    font-weight: 900;
+    color: #fc8019;
+}
+.butt span{
+    margin-right: 2rem;
+    
+    
+    /*  */
+}
+.butt span a:hover{
+    padding: 1rem 2rem;
+
+    color: white;
+    transition: background-color 2s ease;
+    background-color: black;
+    border-radius: 4rem;
+}
+.butt span a{
+
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    color: black;
+    font-weight: 700;
+}
+
+.mid{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.mid-h{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    transform: translate(-20%,-50%);
+}
+.search{
+    position: relative;
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color: wheat;
+    color: rgb(140,141,152);
+    /* dikkat hai */
+}
+.search button{
+    border: none;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    padding: 1.8rem 4rem;
+    background-color: rgb(252,128,25);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.popu p{
+    margin-top: 2rem;
+    color: black;
+    opacity: 0.6;
+    
+}
+.dfdf{
+    margin-top: 2rem;
+}
+.dfdf a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin-right: 1.5rem;
+}
+.movie{
+    font-size: 3.5rem;
+}
+.order{
+    margin-top: 5rem;
+    color: black;
+    opacity: .6;
+    font-size: 2rem;
+}
+.main-r{
+    height: 100%;
+    width: 50%;
+    background-image: url(/swiggy/swiggu/shreyak-singh-0j4bisyPo3M-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.second{
+    display: flex;
+    height: 80%;
+    width: 100%;
+}
+.s-l{
+    position: relative;
+    height: 100%;
+    width: 33.3%;
+    background-color:rgb(43,30,22);
+}
+.imggg{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 20rem;
+    width: 15rem;
+    background-image: url(/swiggy/swiggu/4x_-_No_min_order_x0bxuf.webp);
+    background-size: cover;
+    background-position: center;
+}
+.ss{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:1.2rem ;
+}
+.imggg1{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 20rem;
+    width: 15rem;
+     background-image: url(/swiggy/swiggu/4x_-_Super_fast_delivery_awv7sn.webp);
+     background-size: cover;
+    background-position: center;
+}
+.sss{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:1.2rem ;
+}
+.s-m{
+    position: relative;
+    height: 100%;
+    width: 33.3%;
+    background-color:rgb(43,30,22) ;
+   
+}
+.imggg2{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    height: 20rem;
+    width: 15rem;
+    background-image: url(/swiggy/swiggu/4x_Live_order_zzotwy.webp);
+    background-size: cover;
+    background-position: center;
+}
+.ssss{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size:1.2rem ;
+}
+.s-r{
+    position: relative;
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(43,30,22) ; 
+}
+.ss h3{
+    color: white;
+}
+.ss p{
+   color:  rgb(211,191,181);
+}
+.sss h3{
+    color: white;
+}
+.sss p{
+   color:  rgb(211,191,181);
+}
+.ssss h3{
+    color: white;
+}
+.ssss p{
+   color:  rgb(211,191,181);
+}
+.third{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.left{
+    position: relative;
+    height: 100%;
+    width: 33.3%; 
+}
+.mm{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    margin-left:3rem;
+    transform: translate(-50%,-50%);
+}
+.mm h1{
+    color: black;
+    font-size:3rem;
+    font-weight: 800;
+}
+.mm p{
+    margin-top: 1rem;
+    color: rgb(208,172,163);
+}
+.both{
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.photo {
+    border: none;
+    border-radius: .5rem;
+    margin-right:3rem ;
+    background-image: url(/swiggy/swiggu/play_ip0jfp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    height: 4rem;
+    width: 12rem;
+}
+.appstore{
+    border: none;
+    border-radius: .5rem;
+    background-image: url(/swiggy/swiggu/iOS_ajgrty.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2rem;
+    height: 4rem;
+    width: 12rem;
+}
+.third-mid{
+    height: 100%;
+    width: 33.3%;
+    background-image: url(/swiggy/swiggu/pixel_wbdy4n.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.third-right{
+    height: 100%;
+    width: 33.3%;
+    background-image: url(/swiggy/swiggu/iPhone_wgconp_j0d1fn.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourth{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+/* yha se */
+.fourth-left{
+    position: relative;
+    height: 100%;
+    width: 25%;
+    /* background-color: antiquewhite; */
+}
+.fourth-f h3{
+    padding-bottom: 3rem;
+    color: rgb(115,104,85);
+}
+.fourth-f{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.fourth-f li{
+    list-style-type: none;
+    line-height: 4rem;
+}
+.fourth-f li a{
+    text-decoration: none;
+    color: rgb(251,252,244);
+}
+.fourth-f li a:hover{
+    font-weight: 800;
+}
+/* yha tk */
+.fourth-mid-r{
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+.fourth-mid-right h3{
+    padding-bottom: 3rem;
+    color: rgb(115,104,85);
+}
+.fourth-mid-right{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.fourth-mid-right li{
+    list-style-type: none;
+    line-height: 4rem;
+}
+.fourth-mid-right li a{
+    text-decoration: none;
+    color: rgb(251,252,244);
+}
+.fourth-mid-right li a:hover{
+    font-weight: 800;
+}
+/* end */
+.fourth-mid-l{
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+.fourth-mid-left h3{
+    padding-bottom: 3rem;
+    color: rgb(115,104,85);
+}
+.fourth-mid-left{
+    position: absolute;
+    top: 15%;
+    left: 15%;
+}
+.fourth-mid-left li{
+    list-style-type: none;
+    line-height: 4rem;
+}
+.fourth-mid-left li a{
+    text-decoration: none;
+    color: rgb(251,252,244);
+}
+.fourth-mid-left li a:hover{
+    font-weight: 800;
+}
+.fourth-mid{
+    position: relative;
+    height: 100%;
+    width: 25%;
+}
+.fourth-mid-mid{
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    height: 4rem;
+    width: 12rem;
+    background-image: url(/swiggy/swiggu/play_ip0jfp.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: .1rem solid white;
+    border-radius: .5rem;
+    padding: 0.3rem 1.5rem;
+}
+.fourth-mid-mid-mid{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: 4rem;
+    width: 12rem;
+    background-image: url(/swiggy/swiggu/iOS_ajgrty.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0.1rem solid white;
+    border-radius: .5rem;
+    padding: .3rem 1.5rem;
+}
+.fifth{
+    border-top: 0.05rem solidwhite;
+    height: 25%;
+    width: 100%;
+    background-color: black;
+    border-top:.1rem solid white ;
+}
+.fifth-left{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 5%;
+    left: 5%;
+}
+
+.pp{
+    margin-top:4rem;
+    margin-bottom: 2rem;
+   color:  rgb(83,102,114);
+}
+.pp:hover{
+    font-weight: 800;
+}
+.popo a{
+    text-decoration: none;
+    color: rgb(231,233,243);
+}
+.popo:hover{
+    font-weight: 800;
+}
+.fifth-r p{
+    margin-top: 4.5rem;
+    margin-right: 10rem;
+    color: rgb(231,233,243);
+}
+.fifth-r:hover{
+    font-weight: 800;
+}
+/* over */
+.sixth{
+    /* padding-top:40 ; */
+    border-top: .1rem solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    background-color: black;
+}
+.s-left{
+    height: 4rem;
+    width: 16rem;
+    margin-left: 2rem;
+    /* padding-left: 200px; */
+    background-image: url(/swiggy/swiggu/Logo_f5xzza.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s-mid h2{
+    color: white;
+}
+.s-right{
+    margin-right: 1rem;
+}
+.s-right a i{ 
+    padding:0rem 2rem;
+    font-size: 2rem;
+    color: white;
+}
+
+@media (max-width:998px){
+    html{
+        font-size: 55%;
+    }
+    .third-mid{
+        display: none;
+        }
+        .third-right{
+        height: 50%;
+        width: 100%;
+        
+        }
+        .left{
+            position: relative;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%,-50%);
+        }
+
+    
+}
+@media (max-width:768px){
+    html{
+        font-size: 45%;
+    }
+    .third-mid{
+    display: none;
+    }
+    .third-right{
+        
+        width:50%;
+    }
+}
+@media(max-width:595.33px){
+    html{
+        font-size: 30%;
+    }
+    .third-mid{
+        display: none;
+        }
+        .third-right{
+            display: none;
+        }
+    .left{
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+}
+
+
+
